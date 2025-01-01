@@ -1,6 +1,6 @@
 # ARCUS: Automated Radiological Curation & Unification System
 
-ARCUS is a production-ready framework for curating and harmonizing multi-site medical imaging datasets, with a focus on privacy-preserving federated learning. It combines advanced deep learning techniques for quality control and harmonization with a robust federated training infrastructure.
+ARCUS is a framework for curating and harmonizing multi-site medical imaging datasets, with a focus on privacy-preserving federated learning. It combines deep learning techniques for quality control and harmonization with a federated training infrastructure.
 
 ## Key Technical Benefits
 
@@ -32,15 +32,6 @@ ARCUS is a production-ready framework for curating and harmonizing multi-site me
 - DICOM header consistency checking
 - Protocol compliance verification
 - Automated error detection
-
-## Benchmarks & Performance
-
-| Feature | Performance |
-|---------|------------|
-| Privacy Guarantee | ε = 3.0 (δ = 10^-5) |
-| Outlier Detection | AUC-ROC: 0.92 |
-| Harmonization | SSIM: 0.85+ |
-| Training Time | ~2h/1M images |
 
 ## Installation
 
