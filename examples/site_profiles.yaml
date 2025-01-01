@@ -1,0 +1,17 @@
+site_a:
+  site_name: "Hospital A"
+  scanner_info:
+    manufacturer: "Siemens"
+    model: "Skyra"
+  protocol_ranges:
+    slice_thickness: [1.0, 3.0]
+    tr_range: [1500, 2500]
+
+site_b:
+  site_name: "Hospital B"
+  scanner_info:
+    manufacturer: "GE"
+    model: "Discovery"
+  protocol_ranges:
+    slice_thickness: [1.0, 2.5]
+    tr_range: [1800, 2200]
